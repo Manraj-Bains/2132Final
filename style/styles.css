@@ -5,15 +5,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f9f9f9;
-}
-
-h1, h2 {
+    background-color: #f5f5f9;
     color: #333;
 }
 
-#add-item-form {
+h1, h2 {
     margin: 20px 0;
+}
+
+#add-item-form {
+    margin-bottom: 20px;
 }
 
 #add-item-form input {
@@ -39,7 +40,7 @@ h1, h2 {
 #cart-items {
     list-style: none;
     padding: 0;
-    width: 300px;
+    width: 400px;
 }
 
 #cart-items li {
@@ -50,6 +51,7 @@ h1, h2 {
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #cart-items button {
@@ -64,6 +66,18 @@ h1, h2 {
     background-color: #c82333;
 }
 
-h2 {
+#total {
     margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 450px;
 }
